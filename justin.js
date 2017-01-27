@@ -19,7 +19,7 @@ class Justin extends People {
     step () {/* ... */}
     pull(/* ... */)
     useDoor(door) {
-        this.atDoor = true;
+        this.atDoor = true; 
         this.reach(door.target).use();
         while (door.opening != this.width ) {
             this.pull();
