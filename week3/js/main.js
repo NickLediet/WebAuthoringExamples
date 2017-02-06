@@ -9,12 +9,29 @@
     console.log('SEAF fired');
 
     /* Variables */
-    var box1 = document.querySelector('#box1');
-    var box2 = document.querySelector('#box2');
-    var box3 = document.querySelector('#box3');
+    var marieCurie = document.querySelector('#1'); 
+    var georgeMendel = document.querySelector('#2');   
+    var michealFararday = document.querySelector('#3');
+    var napoleonBonaparte = document.querySelector('#4');
+    var alexanderGrahamBell = document.querySelector('#5');
+    var abrahamLincoln = document.querySelector('#6');
+    var karlMarx = document.querySelector('#7');
+    var thomasEdison = document.querySelector('#8');
+    var louisPasteur = document.querySelector('#9');
+    var charlesDarwin = document.querySelector('#10');
+    var elizabethFry = document.querySelector('#11');
+    var maryKies = document.querySelector('#12');
+    var maryShelly = document.querySelector('#13');
+    var graceDarling = document.querySelector('#14');
+    var queenVictoria = document.querySelector('#15');
+    var JosephineCochrane = document.querySelector('#16');
+    var gertrudeJekyl = document.querySelector('#17');
+    var edmoniaLewis = document.querySelector('#18');
+    var susannaSalter = document.querySelector('#19');
+    var maryKingsley = document.querySelector('#20');
 
-    var box2Size = 50;
     /* Functions */
+<<<<<<< HEAD
     function changeSize(){
         checkIfSet(this);
         if(this.isSet){
@@ -67,4 +84,9 @@
     }, false); */
     box2.addEventListener("click", changeColor, false);
     box3.addEventListener("click", grow, false);
+=======
+    
+    /* Listeners */
+    
+>>>>>>> 673e5aefcb2d227ace196a4cd0f955a69968d878
 })();
