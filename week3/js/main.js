@@ -39,10 +39,21 @@
         }
         console.dir(this);
     }
+    
+
+    function grow(){
+        checkIfSet();
+        console.log(this.size);
+        this.size += this.size;
+        this.style.height = this.size+'px';
+        this.style.width = this.size+'px';
+    }
+
     function checkIfSet(box){
         if(!box.hasOwnProperty('isSet')){
             Object.defineProperty(box, "key", {
-                isSet : true
+                isSet : true,
+                size : 50
             });
         }
         return null;
@@ -55,5 +66,5 @@
          return null;    
     }, false); */
     box2.addEventListener("click", changeColor, false);
-    
+    box3.addEventListener("click", grow, false);
 })();
