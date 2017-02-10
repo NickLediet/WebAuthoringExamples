@@ -7,8 +7,8 @@
 	var imgOffSet = 600;
 
 //functions
-	function moveBanner() {
-		console.log('fired from moveBanner()');
+	function moveBanner(e) {
+		imgBanner.style.right = (imgOffSet * e.currentTarget.dataset.offset) + 'px';
 	}
 //listeners 
 	for(var i = 0; i < listItems.length; i++) {
